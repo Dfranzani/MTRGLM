@@ -2,7 +2,7 @@
 Paquete R para determinar métricas de desempeño de modelos lineales generalizados.
 
 ## Utilidades del paquete
-El paquete poseen un única función denominada ```mtr.glm (...)```, dicha función realiza los siguientes procedimientos:
+El paquete poseen una única función denominada ```mtr.glm (...)```, dicha función realiza los siguientes procedimientos:
 
 1. Particionar la muestra en un conjutos de entrenamiento y prueba.
 2. Balanceo de la muestra de entrenamiento.
@@ -27,8 +27,8 @@ La función ```mtr.glm (...)``` recibe los siguientes argumentos:
 9. ```ref```: indica si la categoría de referencia de la variable respuesta se debe invertir. Por defecto es ```FALSE```.
 
 ### Notas de utilidad
-1. No es necesario que la variable respuesta sea de caracter factor. La función parametriza la variable respuesta, además genera un atributo del la categoría de referencia usada.
+1. No es necesario que la variable respuesta sea de caracter factor. La función parametriza la variable respuesta, además genera un atributo de la categoría de referencia usada.
 2. Se recomienda mantener el atributo ```plots = FALSE``` debido al margen del gráfico y la ubicación de las leyendas.  
 3. La función está testeada para los links: ```"logit", "probit", "cloglog"```. Para otro tipo pueden ocurrir errores.
-4. Para instalar el paquete MTRGLM, de debe instalar primeramente el paquete **devtolls** (```install.packages("devtools")```). Posterior, se debe ejecutar el comando ```install_github("Dfranzani/MTRGLM")```.
-5. Para consultar un ejemplo consulte ```help(mtr.glm)```
+4. Para instalar el paquete MTRGLM desde Github, de debe instalar primeramente el paquete **devtolls** (```install.packages("devtools")```). Posterior, se debe ejecutar el comando ```install_github("Dfranzani/MTRGLM")```.
+5. Para consultar un ejemplo ejecute ```help(mtr.glm)```.
