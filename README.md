@@ -30,5 +30,5 @@ La función ```mtr.glm (...)``` recibe los siguientes argumentos:
 1. No es necesario que la variable respuesta sea de caracter factor. La función parametriza la variable respuesta, además genera un atributo de la categoría de referencia usada.
 2. Se recomienda mantener el atributo ```plots = FALSE``` debido al margen del gráfico y la ubicación de las leyendas.  
 3. La función está probada para los links: ```"logit", "probit", "cloglog"```. Para otro tipo pueden ocurrir errores.
-4. Para instalar el paquete MTRGLM desde Github, de debe instalar primeramente el paquete **devtools**  mediante el comanda ```install.packages("devtools")```. Posterior, se debe ejecutar ```install_github("Dfranzani/MTRGLM")```.
+4. Para instalar el paquete MTRGLM desde Github, de debe instalar primeramente el paquete **devtools**  mediante el comando ```install.packages("devtools")```. Posterior, se debe ejecutar ```install_github("Dfranzani/MTRGLM")```.
 5. Para consultar un ejemplo ejecute ```help(mtr.glm)```.
