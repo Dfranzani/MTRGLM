@@ -2,7 +2,7 @@
 Paquete R para determinar métricas de desempeño de modelos lineales generalizados.
 
 ## Utilidades del paquete
-El paquete poseen una única función denominada ```mtr.glm (...)```, dicha función realiza los siguientes procedimientos:
+El paquete posee una única función denominada ```mtr.glm (...)```, dicha función realiza los siguientes procedimientos:
 
 1. Particionar la muestra en un conjutos de entrenamiento y prueba.
 2. Balanceo de la muestra de entrenamiento.
