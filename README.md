@@ -11,7 +11,7 @@ El paquete posee una única función denominada ```mtr.glm (...)```, dicha funci
 5. Curva de ROC.
 6. Curva PR.
 7. Gráfico KS.
-8. Métricas (*Accuracy*, *Recall*, *Presicion*).
+8. Métricas (*Accuracy*, *Recall*, *Precision*).
 
 ## Argumentos de la función
 
